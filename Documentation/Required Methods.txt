@@ -1,0 +1,12 @@
+Database Methods:
+check_slot -> Return Slot number if free else False
+check_emp(rfid) -> Return True Or False
+store_car(rfid, type, slot)
+store_time(rfid, time) 
+get_in_time()
+store_in_log(rfid)
+flush_from_db(rfid)
+dump_log() -> Dumps all data from log
+
+Logic Methods:
+Calculate_rate(RFID)
